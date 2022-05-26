@@ -4,15 +4,15 @@
   "version":"1.0",
   "manifest_version":3,
   "icons":{
-    "16":"",
-    "48":"",
-    "128":""
+    "16":"./icons/moon-16.png",
+    "48":"./icons/moon-48.png",
+    "128":"./icons/moon-128.png"
   },
   "page_actions":{
     "default_icon":{
-      "16":"",
-      "48":"",
-      "128":""
+      "16":"./icons/moon-16.png",
+      "48":"./icons/moon-48.png",
+      "128":"./icons/moon-128.png"
     }
   },
   "content_scripts":[{

@@ -1,0 +1,189 @@
+.bili-header__channel,.bili-layout,.bili-video-card__wrap {
+  background-color: var(--Ba0) !important;
+}
+/* 首页video卡片 */
+.bili-video-card,.bili-live-card {
+  border-radius: 6px;
+  overflow: hidden;
+}
+body .bili-video-card .bili-video-card__info--tit {
+  color: var(--text4);
+}
+body .area-header .title {
+  color: var(--text4);
+}
+/* 夜间导航的entry */
+.bili-header .slide-down .left-entry .mini-header__title,
+.bili-header .slide-down .left-entry .entry-title, .bili-header 
+.slide-down .left-entry .default-entry, 
+.bili-header .slide-down .left-entry .loc-mc-box__text, 
+.bili-header .slide-down .left-entry .download-entry, 
+.bili-header .slide-down .left-entry .loc-entry{
+  color: var(--text4) !important;
+}
+/* nav导航图标 */
+body .bili-header .slide-down .right-entry .right-entry__outside .right-entry-icon {
+  color: var(--text4) !important;
+}
+/* 含有scrollTop的header */
+body .bili-header .slide-down{
+  background-color: var(--Ba0);
+  box-shadow:0 0 5px 1px rgb(158 179 193 / 50%)
+}
+/* 动态 热门 频道 */
+.bili-header .channel-icons .icon-title {
+  color:var(--text4);
+}
+/* banner的分类按钮 */
+.bili-header .bili-header__channel
+.channel-entry-more__link, .bili-header 
+.bili-header__channel .channel-link {
+  background-color: var(--Ba0) !important;
+  color: var(--text4) !important;
+}
+.bili-header 
+.bili-header__channel .channel-link:hover {
+  background-color: var(--Ga7) !important;
+}
+/* 直播卡片字体颜色 */
+body .bili-live-card .bili-live-card__info--tit {
+  color: var(--text4);
+}
+body .bili-live-card__wrap {
+  background-color: var(--Ba0);
+}
+/* 番剧卡片 */
+body .bili-movie-card .bili-movie-card__info--tit {
+  color: var(--text4);
+}
+body .bili-movie-card__wrap {
+  background-color: var(--Ba0);
+}
+/* 漫画 */
+body .bili-manga-card .bili-manga-card__info--tit {
+  color: var(--text4);
+}
+/* 国创卡片 */
+body .bili-bangumi-card .bili-bangumi-card__info--tit {
+  color: var(--text4);
+}
+/* 课堂卡片 */
+body .bili-cheese-card__wrap {
+  background-color: var(--Ba0);
+}
+body .bili-cheese-card .bili-cheese-card__info--tit {
+  color: var(--text4);
+}
+
+/* 专栏 */
+body .bili-article-card .bili-article-card__info--tit {
+  color: var(--text4);
+}
+/* i_cecream */
+body #i_cecream {
+  background-color: var(--Ba0);
+}
+
+/* footer */
+body .bili-footer {
+  background-color: var(--Ba0);
+}
+
+/* footer -> 传送门 */
+body .bili-footer .link-box .link-item .link-item__panel>a {
+  color: var(--text4);
+}
+body .bili-footer p {
+  color: var(--text4);
+}
+
+/* button */
+body .primary-btn {
+  color: var(--text4);
+  background-color: var(--Ba0);
+  border: 1px solid var(--Ga9);
+}
+body .primary-btn:hover {
+  background-color: var(--Ga7);
+}
+
+/* 右侧fixed的反馈 */
+body .palette-button-wrap .feedback {
+  color: var(--text4);
+}
+/* 排行榜 */
+body .bili-rank-list-video .bili-rank-list-video__item:nth-of-type(2n + 1) {
+  background-color: #16161a;
+}
+body .bili-rank-list-video .bili-rank-list-video__item:nth-of-type(2n) {
+  background-color: var(--Ba0);
+}
+/* video排行榜border */
+body .bili-rank-list-video .bili-rank-list-video__list,
+body .bili-rank-list-ogv .bili-rank-list-ogv__list
+{
+  border: 1px solid var(--Ga9);
+}
+body .bili-rank-list-ogv .bili-rank-list-ogv__item:nth-of-type(2n + 1) {
+  background-color: #16161a;
+}
+body .bili-rank-list-ogv .bili-rank-list-ogv__item:nth-of-type(2n) {
+  background-color: var(--Ba0);
+}
+/* article排行榜 */
+body .bili-rank-list-article .bili-rank-list-article__item:nth-of-type(2n + 1) {
+  background-color: #16161a;
+}
+body .bili-rank-list-article .bili-rank-list-article__item:nth-of-type(2n) {
+  background-color: var(--Ba0);
+}
+/* 课堂排行榜 */
+body .bili-rank-list-cheese .bili-rank-list-cheese__item:nth-of-type(2n+1) {
+  background-color: #16161a;
+}
+body .bili-rank-list-cheese .bili-rank-list-cheese__item:nth-of-type(2n) {
+  background-color: var(--Ba0);
+}
+/* 动画排行榜 */
+body .bili-rank-list-manga .bili-rank-list-manga__item:nth-of-type(2n+1) {
+  background-color: #16161a;
+}
+body .bili-rank-list-manga .bili-rank-list-manga__item:nth-of-type(2n) {
+  background-color: var(--Ba0);
+}
+/* 排行榜字体颜色 */
+body .bili-rank-list-video .rank-video-card,
+body .bili-rank-list-ogv .rank-ogv-card,
+body .bili-rank-list-article .rank-article-card,
+body .bili-rank-list-cheese .rank-cheese-card,
+body .bili-rank-list-manga .rank-manga-card
+{
+  color: var(--text4);
+}
+/* 排行榜左边的一条竖线 */
+body .aside-core {
+  left: -2px;
+}
+
+/* track按钮组 */
+body .bangumi-card-list .track-switch {
+  background-color: var(--Ba0);
+}
+
+/* pop card的背景颜色 */
+body .bili-header .avatar-panel-popover,body .v-popover-content {
+  background-color: var(--Ba0);
+  color: var(--text4);
+}
+/* pop content 字体颜色 */
+body .bili-header .message-entry-popover .message-inner-list__item 
+{
+  color: var(--text4);
+}
+/* 收藏entry */
+body .favorite-panel-popover__nav .tab-item,
+body .bili-header .header-fav-card__info--title,
+body .history-panel-popover .header-tabs-panel__content--date,
+body .history-panel-popover .header-history-card__info--title {
+  color: var(--text4);
+}
