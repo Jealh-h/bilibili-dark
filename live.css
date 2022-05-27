@@ -1,0 +1,34 @@
+/* body */
+body {
+  background-color: #000 !important;
+}
+
+/* nav-bar */
+.link-navbar,.text-info-ctnr,.link-footer,.live-sidebar-ctnr {
+  background-color: #000 !important;
+}
+/* 右侧边栏 */
+.live-sidebar-ctnr {
+  box-shadow:0 0 5px 1px rgb(158 179 193 / 50%) !important;
+}
+/* section title */
+.section-title,.yzly-title,.area-title,.title-text {
+  color: #fff !important;
+}
+.hover-panel-wrapper,.body-bg,.highlight-area-item,.rec-area-item {
+  background-color: #000 !important;
+}
+/* 新闻列表 */
+body .news-ctnr,body .hab-ctnr,body .rank-ctnr {
+  background-color: #000 !important;
+}
+
+/* 分类banner */
+.highlight-area-item,.rec-area-item {
+  border: 1px solid #2F3238;
+}
+
+/* card text */
+.card-text,.banner-title,.room-anchor,.item-title {
+  color: #C9CCD0 !important;
+}

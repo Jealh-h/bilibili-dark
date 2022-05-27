@@ -23,6 +23,11 @@ body .video-info-v1 .video-title {
   color: var(--Wh0);
 }
 
+/* up主昵称 */
+.up-info-v1 .up-info_right .name .username {
+  color: var(--Wh0) !important;
+}
+
 /* video播放器圆角边框 */
 body #playerWrap, body #danmukuBox {
   border-radius: 6px;
@@ -33,7 +38,8 @@ body #playerWrap {
   box-shadow:0 0 5px 1px rgb(158 179 193 / 50%);
 }
 /* 视频描述 */
-body .video-desc-v1 .desc-info {
+body .video-desc-v1 .desc-info,
+body .video-page-operator-card-small .card-box .info .title {
   color: var(--text4);
 }
 .comment-header .tabs-order .clearfix li.default-sort,.on {
@@ -84,7 +90,11 @@ body .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap {
 body .bb-comment, .comment-bilibili-fold {
   background-color: var(--Ba0);
 }
-
+/* 评论文字内容 */
+body .comment-list .list-item .user .text-con,
+body .comment-list .list-item .text {
+  color: var(--text4);
+}
 body .video-container-v1 #comment[data-v-0cd765d2] {
   border-radius: 6px;
   padding: 20px;
