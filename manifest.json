@@ -20,5 +20,13 @@
       "https://www.bilibili.com/*"
     ],
     "css":["main.css"]
+  },{
+    "matches":["https://live.bilibili.com/*"],
+    "css":["live.css"]
+  },{
+    "matches":[
+      "https://www.bilibili.com/video/*"
+    ],
+    "css":["video.css"]
   }]
 }

@@ -1,0 +1,118 @@
+
+/* header */
+body .mini-header {
+  background: var(--Ba0);
+  box-shadow:0 0 5px 1px rgb(158 179 193 / 50%);
+}
+
+body .mini-header .left-entry .mini-header__title, 
+.mini-header .left-entry .entry-title, 
+.mini-header .left-entry .default-entry, 
+.mini-header .left-entry .loc-mc-box__text, 
+.mini-header .left-entry .download-entry, 
+.mini-header .left-entry .loc-entry {
+  color: var(--text4) !important;
+}
+body .mini-header .right-entry .right-entry__outside .right-entry-text,
+body .mini-header .right-entry .right-entry__outside .right-entry-icon{
+  color: var(--text4);
+}
+
+/* video标题 */
+body .video-info-v1 .video-title {
+  color: var(--Wh0);
+}
+
+/* video播放器圆角边框 */
+body #playerWrap, body #danmukuBox {
+  border-radius: 6px;
+  overflow: hidden;
+}
+/* 视频wrapper阴影 */
+body #playerWrap {
+  box-shadow:0 0 5px 1px rgb(158 179 193 / 50%);
+}
+/* 视频描述 */
+body .video-desc-v1 .desc-info {
+  color: var(--text4);
+}
+.comment-header .tabs-order .clearfix li.default-sort,.on {
+  color: var(--Wh0) !important;
+}
+/* 弹幕列表header */
+body .player-auxiliary-area .player-auxiliary-danmaku
+.player-auxiliary-danmaku-function 
+[class*=player-auxiliary-danmaku-btn-] {
+  background-color: var(--Ba0);
+  color: var(--text4);
+}
+body .player-auxiliary-area {
+  background-color: var(--Ba0);
+  border: 1px solid var(--Ga9);
+  border-radius: 6px;
+}
+/* 弹幕item */
+body .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap .player-auxiliary-danmaku-list .danmaku-info-row span.danmaku-info-danmaku {
+  color: var(--text4);
+}
+body .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-btn-history {
+  background-color: #16161a;
+  color: var(--Ga2) !important;
+}
+
+body .player-auxiliary-area .player-auxiliary-collapse .bui-collapse-header,
+body .player-auxiliary-area .player-auxiliary-filter-title {
+  color: var(--Wh0);
+}
+body .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-btn-footer {
+  background-color: #16161a;
+}
+.bui-collapse-header {
+  background-color: var(--Ba0) !important;
+}
+/* 弹幕发送框 */
+body .bilibili-player-video-sendbar {
+  background-color: var(--Ba0);
+}
+/* 整个背景颜色 */
+body #header-v3,body #app,
+body .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap {
+  background-color: var(--Ba0);
+}
+
+/* 评论区 */
+body .bb-comment, .comment-bilibili-fold {
+  background-color: var(--Ba0);
+}
+
+body .video-container-v1 #comment[data-v-0cd765d2] {
+  border-radius: 6px;
+  padding: 20px;
+  border: 1px solid var(--Ga9);
+}
+
+/* 推荐 */
+body .video-card-ad-small[data-v-9ea81326],
+body .video-page-card-small .card-box .info .title{
+  color: var(--text4);
+}
+
+/* 右侧fixed导航 */
+body .float-nav-exp .nav-menu .item,
+body .fixed-nav .nav-menu .item[data-v-59a4d1f1] {
+  color: var(--text4);
+  fill: var(--text4);
+  background-color: var(--Ba0);
+  border: 1px solid var(--Ga9);
+}
+
+/* 浮动的评论框 */
+body .comment-send.comment-send-lite, .comment-send-lite.comment-send-lite {
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: var(--Ba0) !important;
+  border: 1px solid var(--Ga9);
+  padding-right:15px;
+  border-top: 1px solid var(--Ga9) !important;
+  bottom: 15px !important;
+}

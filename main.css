@@ -1,3 +1,7 @@
+/* 
+  zhu
+*/
+
 .bili-header__channel,.bili-layout,.bili-video-card__wrap {
   background-color: var(--Ba0) !important;
 }
@@ -179,6 +183,12 @@ body .bili-header .avatar-panel-popover,body .v-popover-content {
 body .bili-header .message-entry-popover .message-inner-list__item 
 {
   color: var(--text4);
+}
+.v-popover-content {
+  background-color: var(--Ba0) !important;
+}
+.v-popover a {
+  color: var(--text4) !important;
 }
 /* 收藏entry */
 body .favorite-panel-popover__nav .tab-item,
