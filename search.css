@@ -1,0 +1,99 @@
+/* 
+ * 搜索页的dark mode
+ */
+
+body .mini-header {
+  background-color: var(--Ba0);
+}
+
+.mini-header .left-entry .mini-header__title, 
+.mini-header .left-entry .entry-title, 
+.mini-header .left-entry .default-entry, 
+.mini-header .left-entry .loc-mc-box__text, 
+.mini-header .left-entry .download-entry, 
+.mini-header .left-entry .loc-entry,
+.search-input-container .search-input-wrap .search-input-el {
+  color: var(--text4) !important;
+}
+
+body .mini-header .right-entry .right-entry__outside .right-entry-text,
+body .mini-header .right-entry .right-entry__outside .right-entry-icon {
+  color: var(--text4);
+}
+
+/* body */
+body #i_cecream {
+  background-color: var(--Ba0);
+}
+
+/* 搜索框 */
+.search-input-container .search-input-wrap {
+  background-color: #16161a !important;
+}
+/* .search-input-container .search-input-wrap:hover {
+  background-color: #9f9f9f !important;
+} */
+
+/* search result card */
+body .bili-video-card{
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bili-video-card__wrap {
+  background-color: var(--Ba0) !important;
+}
+
+.bili-video-card .bili-video-card__info--tit {
+  color: var(--text4) !important;
+}
+.bili-video-card .bili-video-card__info--tit:hover {
+  color: var(--brand_blue) !important;
+}
+body .bili-video-card .bili-video-card__info--tit {
+  background-color: var(--Ba0);
+  color: var(--text4);
+}
+
+/* vui-button */
+body .vui_button {
+  color: var(--text4);
+  background-color: var(--Ba0);
+  border: 1px solid var(--Ga9);
+}
+
+/* footer */
+body .bili-footer {
+  background-color: #16161a !important;
+}
+
+body .bili-footer .link-box .link-item .link-item__panel>a {
+  color: var(--text4);
+}
+
+body .bili-footer p,body .search-input-wrap .trending-item {
+  color: var(--text4);
+}
+
+/* 搜索历史 */
+body .search-input-wrap .search-panel {
+  background-color: var(--Ba0);
+}
+
+body .search-input-wrap .histories .history-item {
+  background-color: var(--Ga3);
+}
+
+body .search-input-wrap .header {
+  color: var(--Wh0);
+}
+
+body .search-input-wrap .trending-item .trendings-rank.search-rank-top {
+  color: var(--Wh0);
+}
+
+/* fixed header */
+.search-input-container .search-fixed-header {
+  background-color: var(--Ba0) !important;
+  box-shadow:0 0 5px 1px rgb(158 179 193 / 50%) !important;
+}

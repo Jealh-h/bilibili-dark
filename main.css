@@ -1,6 +1,6 @@
 /* 
-  zhu
-*/
+ * 主站的dark mode
+ */
 
 .bili-header__channel,.bili-layout,.bili-video-card__wrap {
   background-color: var(--Ba0) !important;
@@ -187,7 +187,7 @@ body .bili-header .message-entry-popover .message-inner-list__item
 .v-popover-content {
   background-color: var(--Ba0) !important;
 }
-.v-popover a {
+.v-popover a,.bili-header .avatar-panel-popover .coins-item .coin-item__num {
   color: var(--text4) !important;
 }
 /* 收藏entry */

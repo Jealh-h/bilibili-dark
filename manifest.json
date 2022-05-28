@@ -28,5 +28,11 @@
       "https://www.bilibili.com/video/*"
     ],
     "css":["video.css"]
+  },{
+    "matches":["https://space.bilibili.com/*"],
+    "css":["space.css"]
+  },{
+    "matches":["https://search.bilibili.com/*"],
+    "css":["search.css"]
   }]
 }

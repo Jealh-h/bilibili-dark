@@ -1,3 +1,7 @@
+/* 
+ * 直播主页的dark mode
+ */
+
 /* body */
 body {
   background-color: #000 !important;
@@ -31,4 +35,35 @@ body .news-ctnr,body .hab-ctnr,body .rank-ctnr {
 /* card text */
 .card-text,.banner-title,.room-anchor,.item-title {
   color: #C9CCD0 !important;
+}
+.Item_1EohdhbR .Item_2A9JA1Uf {
+  background-color: #000 !important;  
+}
+.Item_1EohdhbR .Item_2A9JA1Uf .Item_2onI5dXq .Item_1Cr59yf9 .Item_2GEmdhg6 {
+  color: #C9CCD0 !important;
+}
+
+/* --------------直播详情页------------ */
+body .international-header .mini-type,
+ .van-popover .mini-type,.rank-list-ctnr {
+  background-color: #000;
+}
+
+.nav-link .nav-link-ul .nav-link-item .link,
+.mini-type .nav-user-center .user-con .item .name {
+  color: #C9CCD0 !important;
+}
+.head-info-section {
+  background-color: #000 !important;
+}
+.small-title,.user-row {
+  color: #C9CCD0 !important;
+}
+
+.side-bar-popup-cntr {
+  background-color: #242628 !important;
+}
+
+.more-btn-cntr {
+  background-color: #000 !important;
 }
