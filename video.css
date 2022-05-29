@@ -27,7 +27,7 @@ body .video-info-v1 .video-title {
 }
 
 /* up主昵称 */
-.up-info-v1 .up-info_right .name .username {
+.up-info-v1 .up-info_right .name .username,.upname {
   color: var(--Wh0) !important;
 }
 
