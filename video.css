@@ -55,8 +55,8 @@ body .player-auxiliary-area .player-auxiliary-danmaku
   background-color: var(--Ba0);
   color: var(--text4);
 }
-body .player-auxiliary-area {
-  background-color: var(--Ba0);
+body .player-auxiliary-area,.base-video-sections-v1 {
+  background-color: var(--Ba0) !important;
   border: 1px solid var(--Ga9);
   border-radius: 6px;
 }
@@ -110,6 +110,10 @@ body .video-page-card-small .card-box .info .title{
   color: var(--text4);
 }
 
+.video-page-special-card-small .card-box .info .title {
+  color: var(--text4) !important;
+}
+
 /* 右侧fixed导航 */
 body .float-nav-exp .nav-menu .item,
 body .fixed-nav .nav-menu .item[data-v-59a4d1f1] {
@@ -128,4 +132,16 @@ body .comment-send.comment-send-lite, .comment-send-lite.comment-send-lite {
   padding-right:15px;
   border-top: 1px solid var(--Ga9) !important;
   bottom: 15px !important;
+}
+
+/* 选集列表 */
+body .base-video-sections-v1 .video-sections-head_first-line .first-line-left .first-line-title {
+  color: var(--text4) !important;
+}
+.base-video-sections-v1 .video-section-list .video-episode-card__info-playing {
+  background-color: #1b1b1b !important;
+}
+
+.base-video-sections-v1 .video-section-list .video-episode-card__info-title {
+  color: var(--text4) !important;
 }

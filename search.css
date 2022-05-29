@@ -97,3 +97,12 @@ body .search-input-wrap .trending-item .trendings-rank.search-rank-top {
   background-color: var(--Ba0) !important;
   box-shadow:0 0 5px 1px rgb(158 179 193 / 50%) !important;
 }
+
+/* up的昵称 */
+body .b_text {
+  color: var(--text4);
+}
+
+body .text1 {
+  color: var(--text4) !important;
+}

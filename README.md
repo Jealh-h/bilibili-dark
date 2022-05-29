@@ -13,6 +13,9 @@
 - 视频播放页
 ![视频播放](https://cdn.jsdelivr.net/gh/PancakeDogLLL/imageBed/img/bili-video.png)
 
+- 个人中心
+![个人中心](https://cdn.jsdelivr.net/gh/PancakeDogLLL/imageBed/img/bili-space.png)
+
 ## issues
 
 - 一些js动态生成的pop卡片没有更改样式

@@ -1,3 +1,49 @@
 /* 
  * 个人中心的dark mode
- */
+*/
+
+html {
+  background-color: #16161a !important;
+}
+
+html body,
+body .n .n-data .n-data-v {
+  color: #C9CCD0;
+}
+
+body #page-index .col-1,
+body .list-create,
+body .n .n-inner,
+body #page-index .col-2 .section {
+  background-color: #000;
+}
+
+body .international-header .mini-type, .van-popover .mini-type {
+  background-color: #000;
+}
+
+/* menu的字体颜色 */
+body .international-header .mini-type .nav-link .nav-link-ul .nav-link-item .link, .van-popover .mini-type .nav-link .nav-link-ul .nav-link-item .link {
+  color: #C9CCD0;
+}
+
+body .mini-type .nav-user-center .user-con .item .name {
+  color: #c9ccd0;
+}
+
+body #page-index .col-2 .section .user-auth.no-auth .no-auth-title .goto-auth {
+  color: #fff;
+}
+
+body .section-title {
+  color: #fff;
+}
+
+body #page-index #i-ann-content textarea {
+  background-color: #16161a;
+  color: #c9ccd0;
+}
+
+.user-info .user-info-title .info-title {
+  color: #C9CCD0 !important;
+}
