@@ -2,6 +2,9 @@
  * 搜索页的dark mode
  */
 
+html body {
+  color: var(--text4);
+}
 body .mini-header {
   background-color: var(--Ba0);
 }

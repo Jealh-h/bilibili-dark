@@ -93,6 +93,19 @@ body .danmaku-wrap .player-auxiliary-area .player-auxiliary-danmaku-wrap {
 body .bb-comment, .comment-bilibili-fold {
   background-color: var(--Ba0);
 }
+
+/* 评论分页 */
+body .paging-box {
+  color: var(--text4);
+}
+body .paging-box .current, 
+body .paging-box .next, 
+body .paging-box .prev, 
+body .paging-box .tcd-number, 
+body .paging-box .dian {
+  color: var(--text4);
+}
+
 /* 评论文字内容 */
 body .comment-list .list-item .user .text-con,
 body .comment-list .list-item .text {

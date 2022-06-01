@@ -16,6 +16,13 @@
 - 个人中心
 ![个人中心](https://cdn.jsdelivr.net/gh/PancakeDogLLL/imageBed/img/bili-space.png)
 
+## usage
+
+1. 下载release的压缩包或者直接下载仓库代码
+2. 在浏览器扩展里面打开开发者模式
+3. 点击**加载已解压的扩展程序**选择下载好的仓库文件夹即可
+4. 刷新bilibli网站
+
 ## issues
 
 - 一些js动态生成的pop卡片没有更改样式

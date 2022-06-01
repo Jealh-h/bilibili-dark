@@ -47,3 +47,48 @@ body #page-index #i-ann-content textarea {
 .user-info .user-info-title .info-title {
   color: #C9CCD0 !important;
 }
+
+/* 动态 */
+
+body #page-dynamic .col-2 .section {
+  background-color: #000;
+}
+
+body .bili-dyn-item {
+  background-color: #000;
+  border: 1px solid #2F3238;
+}
+
+/* 动态卡片的up昵称 */
+body .bili-dyn-title__text {
+  color: #fff;
+}
+body .bili-dyn-card-video__body {
+  background-color: #16161a;
+}
+body .bili-dyn-card-video__title,
+body .bili-rich-text__content {
+  color: #C9CCD0;
+}
+
+/* 动态评论 */
+body .bb-comment, body .comment-bilibili-fold {
+  background-color: #000;
+}
+
+/* 投稿 */
+body .col-full {
+  background-color: #000;
+}
+/* 投稿区菜单 */
+body .contribution-sidenav {
+  color: #C9CCD0;
+}
+body #page-video .page-head__left .video-title,
+body .breadcrumb .item.cur/* 合集和列表 */ {
+  color: #fff;
+}
+
+#page-series-index .channel-item .channel-name {
+  color: #C9CCD0 !important;
+}
