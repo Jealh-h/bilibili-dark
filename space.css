@@ -92,3 +92,53 @@ body .breadcrumb .item.cur/* 合集和列表 */ {
 #page-series-index .channel-item .channel-name {
   color: #C9CCD0 !important;
 }
+
+/* 我的合集和视频列表 */
+body #page-series-index .channel-option.no-channel {
+  background-color: #000;
+}
+
+body #page-fav .fav-sidenav .nav-title .text {
+  color: #fff;
+}
+
+body #page-fav .fav-sidenav {
+  color: #C9CCD0;
+}
+
+body .favInfo-box .favInfo-details .fav-name {
+  color:#fff;
+}
+
+body #page-fav .fav-main .filter-item {
+  color: #fff;
+}
+
+body #page-fav .fav-main .small-item .be-dropdown {
+  bottom: 0;
+  right: 0;
+}
+
+body #page-fav .fav-main .small-item .be-dropdown {
+  color: #fff;
+  background-color: #000;
+}
+
+#page-series-index .channel-option.no-channel {
+  background-color: #000 !important;
+}
+
+body #page-fav .fav-main .search-input input {
+  color: #fff;
+  background-color: #000;
+}
+
+/* 订阅 */
+body .sub-tabs span {
+  color: #fff;
+}
+
+/* 设置 */
+body #page-setting .setting-privacy-item .setting-privacy-name {
+  color: #C9CCD0;
+}

@@ -197,3 +197,7 @@ body .history-panel-popover .header-tabs-panel__content--date,
 body .history-panel-popover .header-history-card__info--title {
   color: var(--text4);
 }
+
+body .bili-header .avatar-panel-popover .counts-item .single-count-item .count-num {
+  color: var(--text4);
+}
