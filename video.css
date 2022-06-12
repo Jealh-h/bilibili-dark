@@ -2,6 +2,10 @@
  * 视频播放页的dark mode
  */
 
+html body {
+  color: var(--text4);
+}
+
 /* header */
 body .mini-header {
   background: var(--Ba0);
@@ -157,4 +161,21 @@ body .base-video-sections-v1 .video-sections-head_first-line .first-line-left .f
 
 .base-video-sections-v1 .video-section-list .video-episode-card__info-title {
   color: var(--text4) !important;
+}
+
+.base-video-sections-v1 .video-section-title .title {
+  color: var(--text4) !important;
+}
+
+.base-video-sections-v1 .video-section-title {
+  background-color: var(--Ba0) !important;
+}
+
+.reply-warp .fixed-reply-box {
+  bottom: 20px !important;
+}
+
+.reply-box.fixed-box {
+  padding: 15px 20px !important;
+  background-color: var(--Ba0) !important;
 }

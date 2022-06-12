@@ -142,3 +142,13 @@ body .sub-tabs span {
 body #page-setting .setting-privacy-item .setting-privacy-name {
   color: #C9CCD0;
 }
+
+/* 相册 */
+body .album-card__title {
+  color: #C9CCD0;
+}
+
+/* 关注 */
+body #page-follows .follow-sidenav .follow-list-container .follow-item {
+  color:#C9CCD0;
+}
